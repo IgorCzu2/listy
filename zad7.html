@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozioma Nawigacja</title>
+    <style>
+        
+        .nav-list {
+            list-style: none; 
+            padding: 0;
+            margin: 0;
+            display: flex; 
+        }
+
+        .nav-list li {
+            margin: 0 10px; 
+        }
+
+        .nav-list a {
+            display: block; 
+            background-color: blue; 
+            color: white; 
+            text-decoration: underline; 
+            padding: 10px 15px; 
+            transition: background-color 0.3s, text-decoration 0.3s; 
+        }
+
+        .nav-list a:hover {
+            background-color: red; 
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
